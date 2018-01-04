@@ -1,2 +1,3 @@
-# kotlin-variable-completion-plugin
-Kotlin completion plugin for Android Studio
+# Kotlin Variable Completion Plugin
+
+Kotlin completion plugin for IntelliJ & Android Studio
