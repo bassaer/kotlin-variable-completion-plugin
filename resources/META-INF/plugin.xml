@@ -18,12 +18,13 @@
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
+
+  <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
+    <completion.contributor language="kotlin" implementationClass="main.kotlin.com.github.bassaer.kotlin_variable_completion.VariableCompletionContributor"/>
+
   </extensions>
 
   <actions>
